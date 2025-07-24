@@ -39,4 +39,61 @@
       color: #004080;
     }
     .authors {
-      font-style: it
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+    .resources a {
+      display: block;
+      margin: 0.5rem 0;
+      color: #0066cc;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin: 3rem 0 1rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Automated Recovery of Software Product Lines from Legacy Configurable Codebases</h1>
+    <div class="logos">
+      <img src="logo_udst.png" alt="UDST Logo">
+      <img src="logo_mobioos.png" alt="Mobioos Logo">
+      <img src="logo_rfq.png" alt="RedFabriQ Logo">
+    </div>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Authors</h2>
+      <p class="authors">
+        Tewfik Ziadi (University of Doha for Science & Technology, Qatar) <br>
+        Karim Ghallab & Zaak Chalal (RedFabriQ / Mobioos, Paris, France)
+      </p>
+    </section>
+
+    <section>
+      <h2>Abstract</h2>
+      <p>
+        Preprocessor directives such as <code>#ifdef</code> have historically been the predominant mechanism for managing variability in legacy C/C++ codebases. [...]
+        <br><br>
+        In this paper, we present an integrated toolchain for the automated recovery of Software Product Lines from legacy C/C++ systems. Our approach identifies features and their interactions, synthesizes a hierarchical feature model, and generates traceability links to locate feature-specific code fragments. Built as an extension to Mobioos Forge, our approach enables safe feature removal and variant derivation.
+      </p>
+    </section>
+
+    <section>
+      <h2>Resources</h2>
+      <div class="resources">
+        <a href="https://tziadi.github.io/Var-Scope" target="_blank">🔗 SPLs recovered and visualization (GitHub Page)</a>
+        <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">🎥 Demo Video (PoC in action)</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 — ICSME Industry Track — VAR-SCOPE Project
+  </footer>
+</body>
+</html>
